@@ -153,13 +153,18 @@ export default function CampaignsPage() {
         <div className="h-full max-w-[1300px] mx-auto px-4 sm:px-6 md:px-8 flex items-center">
 
           {/* Left: EVOQ logo */}
-          <a href="https://dev.evoq.one" className="flex items-center gap-3 group flex-shrink-0">
-            <div className="hidden sm:flex flex-col gap-[5px]">
-              <div className="w-[18px] h-[2px] rounded-full bg-gray-900 group-hover:opacity-60 transition-opacity"/>
-              <div className="w-[13px] h-[2px] rounded-full bg-gray-900 group-hover:opacity-60 transition-opacity"/>
-              <div className="w-[18px] h-[2px] rounded-full bg-gray-900 group-hover:opacity-60 transition-opacity"/>
-            </div>
-            <span className="text-gray-900 font-heading font-black text-[22px] sm:text-[24px] tracking-[-0.04em] leading-none">EVOQ</span>
+          <a href="https://dev.evoq.one" className="flex items-center group flex-shrink-0 opacity-100 group-hover:opacity-80 transition-opacity">
+            <svg width="48" height="32" viewBox="0 0 200 48" xmlns="http://www.w3.org/2000/svg" className="h-8 w-auto">
+              {/* Swirl icon */}
+              <g>
+                <path d="M 24 8 A 16 16 0 0 1 32 10.34" fill="none" stroke="#5B4FE0" strokeWidth="5" strokeLinecap="round"/>
+                <path d="M 36 16 A 16 16 0 0 1 32.66 28" fill="none" stroke="#7C3AED" strokeWidth="5" strokeLinecap="round"/>
+                <path d="M 20 36 A 16 16 0 0 1 8 32.66" fill="none" stroke="#9F7AEA" strokeWidth="5" strokeLinecap="round"/>
+                <path d="M 4 22 A 16 16 0 0 1 8 10.34" fill="none" stroke="#B8A3F0" strokeWidth="5" strokeLinecap="round"/>
+              </g>
+              {/* EVOQ text */}
+              <text x="48" y="34" fontFamily="system-ui, -apple-system, sans-serif" fontSize="32" fontWeight="900" fill="#1F2937" letterSpacing="-1.5">EVOQ</text>
+            </svg>
           </a>
 
           {/* Nav pill — right next to logo */}
