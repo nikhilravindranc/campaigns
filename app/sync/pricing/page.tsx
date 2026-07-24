@@ -75,7 +75,7 @@ export default function SyncPricingPage() {
     <div className="bg-white min-h-screen font-sans">
       {/* ══ TOP BAR — EVOQ global nav ══ */}
       <header className="fixed top-0 left-0 right-0 z-[210] h-[80px] bg-[#ECFDF5]">
-        <div className="h-full max-w-[1300px] mx-auto pl-2 pr-4 sm:pl-3 sm:pr-6 md:pl-4 md:pr-8 flex items-center justify-between">
+        <div className="h-full w-full pl-4 pr-4 sm:pl-6 sm:pr-6 md:pl-8 md:pr-8 flex items-center justify-between">
           <a href="https://dev.evoq.one" className="flex items-center group flex-shrink-0 opacity-100 group-hover:opacity-80 transition-opacity">
             <Image src="/images/black-logo.png" alt="EVOQ" width={105} height={24} className="h-6 w-auto" priority/>
           </a>
@@ -88,7 +88,7 @@ export default function SyncPricingPage() {
 
       {/* ══ SUB-HEADER — EVOQ SYNC ══ */}
       <div className="fixed top-[80px] left-0 right-0 z-[200] h-[56px] bg-[#ECFDF5]">
-        <div className="h-full max-w-[1300px] mx-auto pl-2 pr-4 sm:pl-3 sm:pr-6 md:pl-4 md:pr-8 flex items-center">
+        <div className="h-full w-full pl-4 pr-4 sm:pl-6 sm:pr-6 md:pl-8 md:pr-8 flex items-center">
           <div className="flex items-center gap-2 flex-shrink-0 ml-4 sm:ml-8">
             <div className="w-[28px] h-[28px] rounded-[8px] bg-[#059669] flex items-center justify-center shadow-[0_2px_6px_rgba(5,150,105,0.25)]">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5">
