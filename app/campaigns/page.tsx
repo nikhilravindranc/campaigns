@@ -155,7 +155,7 @@ export default function CampaignsPage() {
 
           {/* Left: EVOQ logo */}
           <a href="https://dev.evoq.one" className="flex items-center group flex-shrink-0 opacity-100 group-hover:opacity-80 transition-opacity">
-            <Image src="/images/black-logo.png" alt="EVOQ" width={140} height={32} className="h-8 w-auto" priority/>
+            <Image src="/images/black-logo.png" alt="EVOQ" width={105} height={24} className="h-6 w-auto" priority/>
           </a>
 
           {/* Nav pill — right next to logo */}

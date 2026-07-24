@@ -92,13 +92,8 @@ export default function HomePage() {
         <div className="h-full max-w-[1300px] mx-auto px-4 sm:px-6 md:px-8 flex items-center">
 
           {/* Left: EVOQ logo */}
-          <a href="https://dev.evoq.one" className="flex items-center gap-3 group flex-shrink-0">
-            <div className="hidden sm:flex flex-col gap-[5px]">
-              <div className="w-[18px] h-[2px] rounded-full bg-depth group-hover:opacity-60 transition-opacity"/>
-              <div className="w-[13px] h-[2px] rounded-full bg-depth group-hover:opacity-60 transition-opacity"/>
-              <div className="w-[18px] h-[2px] rounded-full bg-depth group-hover:opacity-60 transition-opacity"/>
-            </div>
-            <span className="text-depth font-heading font-black text-[22px] sm:text-[24px] tracking-[-0.04em] leading-none">EVOQ</span>
+          <a href="https://dev.evoq.one" className="flex items-center group flex-shrink-0 opacity-100 group-hover:opacity-80 transition-opacity">
+            <Image src="/images/black-logo.png" alt="EVOQ" width={105} height={24} className="h-6 w-auto" priority/>
           </a>
 
           {/* Nav pill — right next to logo */}
