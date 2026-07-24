@@ -123,7 +123,7 @@ export default function SyncPage() {
 
       {/* ══ SUB-HEADER — EVOQ SYNC ══ */}
       <div className="fixed top-[80px] left-0 right-0 z-[200] h-[56px] bg-[#ECFDF5] border-b border-[#D1FAE5]">
-        <div className="h-full w-full pl-4 pr-4 sm:pl-6 sm:pr-6 md:pl-8 md:pr-8 flex items-center">
+        <div className="h-full max-w-[1300px] mx-auto px-4 sm:px-6 md:px-8 flex items-center">
 
           {/* Left: EVOQ Sync */}
           <div className="flex items-center gap-2 flex-shrink-0 ml-4 sm:ml-8">

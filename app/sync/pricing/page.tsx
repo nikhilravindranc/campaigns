@@ -88,7 +88,7 @@ export default function SyncPricingPage() {
 
       {/* ══ SUB-HEADER — EVOQ SYNC ══ */}
       <div className="fixed top-[80px] left-0 right-0 z-[200] h-[56px] bg-[#ECFDF5]">
-        <div className="h-full w-full pl-4 pr-4 sm:pl-6 sm:pr-6 md:pl-8 md:pr-8 flex items-center">
+        <div className="h-full max-w-[1300px] mx-auto px-4 sm:px-6 md:px-8 flex items-center">
           <div className="flex items-center gap-2 flex-shrink-0 ml-4 sm:ml-8">
             <div className="w-[28px] h-[28px] rounded-[8px] bg-[#059669] flex items-center justify-center shadow-[0_2px_6px_rgba(5,150,105,0.25)]">
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5">
