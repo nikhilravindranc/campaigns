@@ -68,7 +68,7 @@ export default function SyncPage() {
 
       {/* ══ TOP BAR — EVOQ global nav ══ */}
       <header className="fixed top-0 left-0 right-0 z-[210] h-[80px] bg-[#ECFDF5] shadow-[0_1px_0_#D1FAE5]">
-        <div className="h-full max-w-[1300px] mx-auto px-4 sm:px-6 md:px-8 flex items-center">
+        <div className="h-full max-w-[1300px] mx-auto pl-2 pr-4 sm:pl-3 sm:pr-6 md:pl-4 md:pr-8 flex items-center">
 
           {/* Left: EVOQ logo */}
           <a href="https://dev.evoq.one" className="flex items-center group flex-shrink-0 opacity-100 group-hover:opacity-80 transition-opacity">
@@ -123,7 +123,7 @@ export default function SyncPage() {
 
       {/* ══ SUB-HEADER — EVOQ SYNC ══ */}
       <div className="fixed top-[80px] left-0 right-0 z-[200] h-[56px] bg-[#ECFDF5] border-b border-[#D1FAE5]">
-        <div className="h-full max-w-[1300px] mx-auto px-4 sm:px-6 md:px-8 flex items-center">
+        <div className="h-full max-w-[1300px] mx-auto pl-2 pr-4 sm:pl-3 sm:pr-6 md:pl-4 md:pr-8 flex items-center">
 
           {/* Left: EVOQ Sync */}
           <div className="flex items-center gap-2 flex-shrink-0 ml-4 sm:ml-8">
