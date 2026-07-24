@@ -895,13 +895,8 @@ export default function CampaignsPage() {
 
             {/* Brand */}
             <div className="col-span-2 md:col-span-2">
-              <div className="flex items-center gap-2.5 mb-5">
-                <div className="flex flex-col gap-[4.5px]">
-                  <div className="w-[16px] h-[1.5px] rounded-full bg-white"/>
-                  <div className="w-[11px] h-[1.5px] rounded-full bg-white"/>
-                  <div className="w-[16px] h-[1.5px] rounded-full bg-white"/>
-                </div>
-                <span className="text-white font-heading font-black text-[20px] tracking-[-0.03em] leading-none">EVOQ</span>
+              <div className="flex items-center mb-5">
+                <Image src="/images/black-logo.png" alt="EVOQ" width={105} height={24} className="h-6 w-auto brightness-0 invert"/>
               </div>
               <p className="text-white font-semibold text-[16px] mb-2 leading-snug">One Suite. Endless Potential.</p>
               <p className="text-white/70 text-[13px] leading-relaxed max-w-[220px]">
