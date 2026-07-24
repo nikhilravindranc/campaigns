@@ -79,10 +79,16 @@ export default function SyncPricingPage() {
           <a href="https://dev.evoq.one" className="flex items-center group flex-shrink-0 opacity-100 group-hover:opacity-80 transition-opacity">
             <Image src="/images/black-logo.png" alt="EVOQ" width={105} height={24} className="h-6 w-auto" priority/>
           </a>
-          <a href="https://dev.evoq.one/contact"
-            className="flex items-center gap-1.5 px-3.5 sm:px-5 py-2 rounded-full bg-[#059669] text-white text-[12px] sm:text-[13px] font-bold hover:bg-[#047857] transition-colors shadow-[0_2px_8px_rgba(5,150,105,0.25)] flex-shrink-0">
-            <span className="hidden sm:inline">Contact Us</span>
-          </a>
+          <div className="flex items-center flex-shrink-0">
+            <a href="https://dev.evoq.one/login"
+              className="hidden sm:inline text-[13px] font-semibold text-gray-700 hover:opacity-70 transition-opacity mr-4">
+              Log in
+            </a>
+            <a href="https://dev.evoq.one/contact"
+              className="flex items-center gap-1.5 px-3.5 sm:px-5 py-2 rounded-full bg-[#059669] text-white text-[12px] sm:text-[13px] font-bold hover:bg-[#047857] transition-colors shadow-[0_2px_8px_rgba(5,150,105,0.25)]">
+              <span className="hidden sm:inline">Get Started</span>
+            </a>
+          </div>
         </div>
       </header>
 

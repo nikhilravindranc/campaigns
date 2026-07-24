@@ -196,10 +196,14 @@ export default function CampaignsPage() {
 
           <div className="flex-1"/>
 
-          {/* Right: Request Demo */}
+          {/* Right: Log in / Get Started */}
+          <a href="https://dev.evoq.one/login"
+            className="hidden sm:inline text-[13px] font-semibold text-black hover:opacity-70 transition-opacity mr-4 flex-shrink-0">
+            Log in
+          </a>
           <a href="https://dev.evoq.one/contact"
             className="flex items-center gap-1.5 px-3.5 sm:px-5 py-2 rounded-full bg-[#7C3AED] text-white text-[12px] sm:text-[13px] font-bold hover:bg-[#6D28D9] transition-colors shadow-[0_2px_10px_rgba(124,58,237,0.28)] flex-shrink-0">
-            <span className="hidden sm:inline">Request Demo</span>
+            <span className="hidden sm:inline">Get Started</span>
             <ArrowUpRight size={13} weight="bold" color="white"/>
           </a>
         </div>
