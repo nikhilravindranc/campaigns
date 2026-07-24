@@ -68,7 +68,7 @@ export default function SyncPage() {
 
       {/* ══ TOP BAR — EVOQ global nav ══ */}
       <header className="fixed top-0 left-0 right-0 z-[210] h-[80px] bg-[#ECFDF5] shadow-[0_1px_0_#D1FAE5]">
-        <div className="h-full w-full pl-4 pr-4 sm:pl-6 sm:pr-6 md:pl-8 md:pr-8 flex items-center">
+        <div className="h-full max-w-[1300px] mx-auto px-4 sm:px-6 md:px-8 flex items-center">
 
           {/* Left: EVOQ logo */}
           <a href="https://dev.evoq.one" className="flex items-center group flex-shrink-0 opacity-100 group-hover:opacity-80 transition-opacity">
